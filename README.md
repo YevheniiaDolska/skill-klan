@@ -1,1 +1,1 @@
-# skill-klan
+This is a brief project description.
