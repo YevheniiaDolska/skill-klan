@@ -2,7 +2,7 @@ package Homework_3;
 
 import java.util.Scanner;
 
-public class dayCheck {
+public class DayCheck {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);

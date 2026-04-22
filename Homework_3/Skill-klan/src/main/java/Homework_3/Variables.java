@@ -7,10 +7,10 @@ public class Variables {
         double height = 1.6;
         boolean isWoman = true;
 
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(height);
-        System.out.println(isWoman);
+        System.out.println("name:" + name);
+        System.out.println("age:" + age);
+        System.out.println("height:" + height);
+        System.out.println("isWoman?" + isWoman);
 
     }
 }
