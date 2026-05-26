@@ -1,0 +1,36 @@
+1. ID = "root"
+2. className = "login_wrapper"
+3. XPath = "//*[@id="root"]/div/div[2]"
+4. CSS Selector = "#root > div > div.login_wrapper"
+
+
+##Баг репорт
+
+Назва: Не знайдено локатор ID="root"
+
+
+Середовище:
+Windows 11
+Java 21
+Maven 3.9.16
+Selenium Java 4.44.0
+
+Браузер: Chrome
+
+Кроки для відтворення:
+1. Відкрити https://www.saucedemo.com/
+2. Знайти елемент ID = "root"
+
+Очікуваний результат:
+Елемент знайдено.
+
+Фактичний результат:
+NoSuchElementException
+
+Severity:
+Medium
+
+Priority:
+Medium
+
+
